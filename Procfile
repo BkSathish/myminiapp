@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run ATM_SKIMMER_ENQUIRER.py
+web: sh setup.sh && streamlit run enquirer.py
