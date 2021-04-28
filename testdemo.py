@@ -1,3 +1,7 @@
 import streamlit as st
+import cv2
 
-st.title("BRO ellaam pannite deploy um pannitte.....aana coding la edho fauld ide la run aagudhu....web app la run aaga matidhu....pasikkudhu....kalela mass ah anuchoodren")
+st.title("demo")
+image=cv2.imread("Resources/skimmer1a.jpg")
+st.image(image, caption=None, width=590)
+st.warning("updated")
